@@ -19,14 +19,20 @@ body {
     margin-top: -10px;
 }
 
+.page-body {
+    margin: 50px;
+    text-align: center;
+}
+
 .stats-container {
     display: flex;
     align-items: center;
 }
 
-.stats-container:hover {
+.stats-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    border-radius: 7px;
 }
 
 .stats-card {
@@ -78,4 +84,23 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:active {
+    background-color:aqua;
+}
+
+#search {
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Cabin';
+    font-size: 20px;
+}
+
+#search-input {
+    border-radius: 10px;
+}
+
+.search-input:focus {
+    background-color: aqua;
 }
